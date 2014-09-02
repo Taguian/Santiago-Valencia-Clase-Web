@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Resultado de Estudiantes</title>
