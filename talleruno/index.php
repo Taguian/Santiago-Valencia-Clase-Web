@@ -5,7 +5,14 @@
 		<meta charset="UTF-8">
 	</head>
 	<body>
+		<form action="includes/verificar.php" method="post">
+			<h1>LOG IN</h1>
+			<input type="text" name="usuario" /><br><br/>
+			<input type="password" name="password" /><br><br/>
+			<input type="submit" value="Ingresar" />
+		</form>
 		<form action="includes/registrar.php" method="post">
+			<h1>REGISTRO</h1>
 			<table width="200" border="0">
 				<tr>
 					<td>Nombre:</td>
