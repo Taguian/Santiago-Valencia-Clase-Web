@@ -1,0 +1,43 @@
+
+
+/* ==========================================================================
+   Taguian's custom styles
+   ========================================================================== */
+header{
+
+}
+	header h1{
+		color: white;
+	}
+nav{
+	text-align: center;
+}
+	nav ul li{
+		display: inline-block;
+	}
+.avatar img{
+	width: 100%;
+}
+.elemento{
+	border: solid 1px black;
+
+}
+.head{
+	background: url(../img/logo.jpg) no-repeat;
+	background-size: cover;
+	height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

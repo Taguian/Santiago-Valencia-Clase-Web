@@ -1,0 +1,74 @@
+/*Estilos principales*/
+/*Reset*/
+/*Todo bien comentadito, en el orden que aparecen, en orden alfabetico*/
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+}
+
+body{
+	background-color: #F8EDD1;
+	font-family:'PT Sans', sans-serif;
+}
+figure{
+
+}
+	figure img{
+		height: auto;
+		width: 100%;
+		vertical-align: middle;
+	}
+
+header{
+	background-color: #C5CFC6;
+
+}
+	header figure {
+		display: inline-block;
+		width: 55%;
+	}
+
+	header h1 {
+		font-size: 35px;
+		font-family: 'Aguafina Script', cursive;
+	}
+	header h2 {
+		display: inline-block;
+		font-size: 20px;
+		font-family: 'Aguafina Script', cursive;
+	}
+
+nav{
+	text-align: center;
+}
+	nav ul li{
+		display: inline-block;
+	}
+article{
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+	article header figure img {
+		vertical-align: top;
+	}
+	article figure img{
+		width: 45%
+	}
+	article h2{
+		display: inline-block;
+	}
+	article p{
+		/*float: right;*/
+		max-width: 45%;
+		display: inline-block;
+	}
+
+#headerTitle{
+	display: inline-block;
+	/*vertical-align: top;*/
+}/*Los media queries van al final de la pantalla y de menor a mayor*/
+@media(max-width: 450px){
+	.avatar{width: 100%; margin-bottom: 5px; }
+	.cont{ width: 100%}
+}
